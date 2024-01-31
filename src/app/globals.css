@@ -125,8 +125,12 @@ body {
 
   /* Hero */
   .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+    @apply absolute right-0 top-0 h-screen w-1/2 bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
   }
+  .custom-margin {
+    margin-top: -30px; /* Adjust the value as needed */
+  }
+  
 
   /* Camp */
   .camp-quote {
@@ -154,3 +158,4 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+

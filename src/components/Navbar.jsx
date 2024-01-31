@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <nav className="flex justify-between items-center mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 relative z-30 py-5">
       <Link href="/">
-        <Image src="hilink-logo.svg" height={29} width={74} alt="logo" />
+        <Image src="logo2.svg" width={74} height={29} alt="logo" />
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">

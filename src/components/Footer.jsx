@@ -54,7 +54,7 @@ const Footer = () => {
       <div className="mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
-            <Image src="hilink-logo.svg" alt="logo" height={74} width={29} />
+            <Image src="logo2.svg" alt="logo" height={100} width={100} />
           </Link>
 
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
