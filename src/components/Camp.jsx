@@ -35,7 +35,7 @@ const CampSite = ({
                 className="inline-block h-10 w-10 rounded-full"
                 src={url}
                 key={url}
-                alt="peope-img"
+                alt="people-img"
                 width={52}
                 height={52}
               />
@@ -51,28 +51,28 @@ const CampSite = ({
 const Camp = () => {
   return (
     <section className="2xl:max-container relative flex flex-col py-10 lg:py-20 xl:mb-20">
-      <div className="hide-scrollbar flex w-full items-start justify-start gap-8 overflow-x-auto h-[340px] lg:h-[400px] xl:h-[640px]">
+      <div className="hide-scrollbar flex w-full items-start justify-start gap-8 overflow-x-auto h-[340px] lg:h-[400px] xl:h-[450px]">
         <CampSite
           backgroundImage="bg-bg-img-2"
-          title="Putuk Truno Camp"
-          subtitle="Prigen, Pasuran"
+          title="Camp Exotica"
+          subtitle="Himachal Pradesh"
           peopleJoined="50+ Joined"
         />
         <CampSite
           backgroundImage="bg-bg-img-2"
-          title="Mountain View"
-          subtitle="Prigen, Pasuran"
+          title="Camp room on the roof"
+          subtitle="Dehradun"
           peopleJoined="50+ Joined"
         />
       </div>
       <div className=" flex items-center justify-end mt-10 px-6 lg:-mt-60 lg:mr-6">
         <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
           <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
-            <strong>Wilderness beckons</strong>, fear lingers.
+            <strong>La nature sauvage vous attire</strong>, La peur persiste.
           </h2>
           <p className="regular-14 xl:regular-16 mt-5 text-white">
             Visiting a new climbing spot can be exhilarating, but the fear of
-            getting lost can hold you back. At Putuk Truno Camp, we understand
+            getting lost can hold you back. At Exotica Camp, we understand
             that feeling. Thats why we offer guided climbing adventures tailored
             to all experience levels. Let us help you conquer your anxieties and
             experience the thrill of exploration!
