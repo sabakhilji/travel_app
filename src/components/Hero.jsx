@@ -42,13 +42,13 @@ const Hero = () => {
           className="absolute left-15 top-[-80px] w-10 lg:w-[50px]"
         />
         <h1 className="bold-40 lg:bold-52 custom-margin grid">
-          <span>Putuk Truno</span>
-          <span>Camp Area</span>
+          <span>Camp Exotica</span>
+          <span>Kullu</span>
         </h1>
         <p className="regular-14 mt-4 text-gray-30 grid xl:max-w-[520px]">
-         <span>We want to be on each of your journeys seeking the satisfaction of</span>
-          <span>seeing the incorruptible beauty of nature. We can help you on an</span>
-          <span>adventure around the world in just one app</span>
+         <span>The Camp Exotica is a perfect weekend getaway option located in Kullu in the Manali district of Himachal Pradesh. </span>
+          <span>The accommodation provided is world class and the tents simply leave you connecting with nature like never before</span>
+          <span> We can help you on an adventure around the world in just one app</span>
         </p>
         <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
