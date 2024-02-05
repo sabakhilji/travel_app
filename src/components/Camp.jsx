@@ -51,7 +51,7 @@ const CampSite = ({
 const Camp = () => {
   return (
     <section className="2xl:max-container relative flex flex-col py-10 lg:py-10 xl:mb-20">
-      <div className="hide-scrollbar flex w-full items-start justify-start gap-8 overflow-x-auto h-[340px] lg:h-[400px] xl:h-[400px]">
+      <div className="hide-scrollbar flex w-full items-start justify-start gap-8 overflow-x-auto h-[340px] lg:h-[400px] xl:h-[450px]">
         <CampSite
           backgroundImage="bg-bg-img-2"
           title="Camp Exotica"
